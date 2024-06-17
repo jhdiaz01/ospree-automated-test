@@ -11,7 +11,7 @@ export class NavigationPage extends HelperBase {
         await this.page.locator('[class="sc-hmjpVf TZBDu"]').first().click()
         //expect(this.page.locator('[class="sc-bnuovn bzMchF active"]', ({ hasText: 'Accounts' })))
 
-        await this.page.locator('[class="sc-lliPmu ddEeTh"]').first().click();
+        await this.page.locator('[class="sc-cxBPLc fFUjiC"]').first().click();
     }
 
     async navigateToTheEntityFormOfTheAccountsDirectory() {

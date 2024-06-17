@@ -8,7 +8,7 @@ export class SideBarPage extends HelperBase {
     }
 
     async goToBlockchainAnalytics() {
-        const currentPage = await this.page.locator('[class="sc-cnHmbd gMRoaF active"]', ({ hasText: 'Blockchain Analytics'})).isVisible()
+        const currentPage = await this.page.locator('[class="sc-bXRjm gVRHCc"]', ({ hasText: 'Blockchain Analytics'})).isVisible()
         if( currentPage ) {
 
         } else {

@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@faker-js/faker": "^8.4.1",
+    "allure-playwright": "^2.15.1",
     "dotenv": "^16.4.5"
   }
 }

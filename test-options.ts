@@ -18,10 +18,13 @@ export const test = base.extend<TestOptions>({
         console.log(process.env.URL)
         const emailField = page.locator('input[name="username"]')
         const passwordField = page.locator('input[name="password"]')
+
         await emailField.fill(process.env.emailCredential!);
         console.log(process.env.emailCredential)
+
         await passwordField.fill(process.env.passwordCredential!)
         console.log(process.env.passwordCredential)
+        
         await page.getByRole('button', { name: 'Sign in' }).click()
         expect('sc-fezjOJ hFeLtU').toBeTruthy()
         await use('')

@@ -57,7 +57,7 @@ export class FormDirectoryPage extends HelperBase {
     }
 
     async expandStructuredAddress() {
-        await this.page.locator('[class="sc-dordOn eCLrcf"]').nth(0).click()
+        await this.page.locator('[class="sc-kZxqMg deQHUl"]').nth(0).click()
     }
 
     async enterStreetNumber() {
