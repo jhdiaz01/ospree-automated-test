@@ -8,17 +8,17 @@ export class NavigationPage extends HelperBase {
     }
     
     async navigateToTheIndividualFormOfTheAccountsDirectory() {
-        await this.page.locator('[class="sc-hmjpVf TZBDu"]').first().click()
+        await this.page.locator('[class="sc-bxDdli bsPyeQ"]').first().click()
         //expect(this.page.locator('[class="sc-bnuovn bzMchF active"]', ({ hasText: 'Accounts' })))
 
-        await this.page.locator('[class="sc-cxBPLc fFUjiC"]').first().click();
+        await this.page.locator('[class="sc-hKAakq iyFckR"]').first().click();
     }
 
     async navigateToTheEntityFormOfTheAccountsDirectory() {
-        await this.page.locator('[class="sc-hmjpVf TZBDu"]').first().click()
+        await this.page.locator('[class="sc-bxDdli bsPyeQ"]').first().click()
         //expect(this.page.locator('[class="sc-bnuovn bzMchF active"]', ({ hasText: 'Accounts' })))
 
-        await this.page.locator('[class="sc-lliPmu ddEeTh"]').last().click();
+        await this.page.locator('[class="sc-hKAakq iyFckR"]').last().click();
     }
 
     async navigateToTheIndividualFormOfTheRecipientsDirectory() {

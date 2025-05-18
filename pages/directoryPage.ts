@@ -4,9 +4,11 @@ import { faker } from '@faker-js/faker'
 
 export class FormDirectoryPage extends HelperBase {
 
+    
     constructor(page: Page) {
         super(page)
     }
+    
 
     async enterAccountID() {
         const randomAccountID = faker.string.numeric(5)
@@ -39,7 +41,7 @@ export class FormDirectoryPage extends HelperBase {
     }
 
     async selectBirthDate() {
-        await this.page.locator('[class="sc-eDtABA jSTcSr"]').click()
+        await this.page.locator('[class="sc-fbWUsZ kdCuHW"]').click()
         await this.page.locator('[class="yearselect"]').nth(0).selectOption({ value: '2006' })
         await this.page.getByRole('cell', { name: '1', exact: true }).first().click();
         await this.page.getByRole('button', { name: 'Apply' }).click()
@@ -52,12 +54,62 @@ export class FormDirectoryPage extends HelperBase {
     }
 
     async selectNationality() {
-        await this.page.locator('[class="sc-iMrobD frlvbE"]').nth(0).click()
-        await this.page.locator('[class="sc-fDMmqs hWdbUf"]').getByText('Belgium').click()
+        const europeanCountries = [
+            "Albania",
+            "Armenia",
+            "Austria",
+            "Azerbaijan",
+            "Belarus",
+            "Belgium",
+            "Bosnia and Herzegovina",
+            "Bulgaria",
+            "Croatia",
+            "Cyprus",
+            "Czech Republic",
+            "Denmark",
+            "Estonia",
+            "Finland",
+            "France",
+            "Georgia",
+            "Germany",
+            "Greece",
+            "Hungary",
+            "Iceland",
+            "Ireland",
+            "Italy",
+            "Kazakhstan",
+            "Kosovo",
+            "Latvia",
+            "Lithuania",
+            "Luxembourg",
+            "Malta",
+            "Moldova",
+            "Montenegro",
+            "Netherlands",
+            "North Macedonia",
+            "Norway",
+            "Poland",
+            "Portugal",
+            "Romania",
+            "Russia",
+            "Serbia",
+            "Slovakia",
+            "Slovenia",
+            "Spain",
+            "Sweden",
+            "Switzerland",
+            "Turkey",
+            "Ukraine",
+            "United Kingdom"
+          ];
+          const randomIndex = Math.floor(Math.random() * europeanCountries.length);
+        
+          await this.page.locator('[class="sc-eEvSnX dzFAio"]').nth(0).click()
+          await this.page.locator('[class="sc-hgkClB btJkRr"]').getByText(europeanCountries[randomIndex]).click()
     }
 
     async expandStructuredAddress() {
-        await this.page.locator('[class="sc-kZxqMg deQHUl"]').nth(0).click()
+        await this.page.locator('[class="sc-fpJand eXxrie"]').nth(0).click()
     }
 
     async enterStreetNumber() {
@@ -103,7 +155,7 @@ export class FormDirectoryPage extends HelperBase {
 
     async enterCityAddress() {
         const randomCity = faker.location.city()
-        const cityAddress = this.page.locator('input[name="address_city"]')
+        const cityAddress = this.page.locator('input[name="address_city"]').first()
         await cityAddress.fill(randomCity)
     }
 
@@ -125,12 +177,62 @@ export class FormDirectoryPage extends HelperBase {
     }
 
     async selectCountry() {
-        await this.page.locator('[class="sc-iMrobD frlvbE"]').nth(1).click()
-        await this.page.locator('[class="sc-fDMmqs hWdbUf"]').getByText('Spain').click()
+        const europeanCountries = [
+            "Albania",
+            "Armenia",
+            "Austria",
+            "Azerbaijan",
+            "Belarus",
+            "Belgium",
+            "Bosnia and Herzegovina",
+            "Bulgaria",
+            "Croatia",
+            "Cyprus",
+            "Czech Republic",
+            "Denmark",
+            "Estonia",
+            "Finland",
+            "France",
+            "Georgia",
+            "Germany",
+            "Greece",
+            "Hungary",
+            "Iceland",
+            "Ireland",
+            "Italy",
+            "Kazakhstan",
+            "Kosovo",
+            "Latvia",
+            "Lithuania",
+            "Luxembourg",
+            "Malta",
+            "Moldova",
+            "Montenegro",
+            "Netherlands",
+            "North Macedonia",
+            "Norway",
+            "Poland",
+            "Portugal",
+            "Romania",
+            "Russia",
+            "Serbia",
+            "Slovakia",
+            "Slovenia",
+            "Spain",
+            "Sweden",
+            "Switzerland",
+            "Turkey",
+            "Ukraine",
+            "United Kingdom"
+          ];
+        const randomIndex = Math.floor(Math.random() * europeanCountries.length);
+        
+        await this.page.locator('[class="sc-eEvSnX dzFAio"]').nth(0).click()
+        await this.page.locator('[class="sc-hgkClB btJkRr"]').getByText(europeanCountries[randomIndex]).click()
     }
 
     async clickCreateAccountButton() {
-        await this.page.locator('[class="sc-hmjpVf htKmAy"]', ({ hasText: 'Create' })).click()
+        await this.page.locator('[class="sc-lcepkR kkafEe"]', ({ hasText: 'Create' })).click()
         await expect(this.page.locator('[class="MuiSnackbar-root MuiSnackbar-anchorOriginBottomRight sc-htJRVC iOQvin"]')).toHaveText("Successfully created record")
     }
 
@@ -147,7 +249,57 @@ export class FormDirectoryPage extends HelperBase {
     }
 
     async enterCountryOfIncorporation() {
-        await this.page.locator('[class="sc-iMrobD frlvbE"]').nth(0).click()
-        await this.page.locator('[class="sc-fDMmqs hWdbUf"]').getByText('Belgium').click()
+        const europeanCountries = [
+            "Albania",
+            "Armenia",
+            "Austria",
+            "Azerbaijan",
+            "Belarus",
+            "Belgium",
+            "Bosnia and Herzegovina",
+            "Bulgaria",
+            "Croatia",
+            "Cyprus",
+            "Czech Republic",
+            "Denmark",
+            "Estonia",
+            "Finland",
+            "France",
+            "Georgia",
+            "Germany",
+            "Greece",
+            "Hungary",
+            "Iceland",
+            "Ireland",
+            "Italy",
+            "Kazakhstan",
+            "Kosovo",
+            "Latvia",
+            "Lithuania",
+            "Luxembourg",
+            "Malta",
+            "Moldova",
+            "Montenegro",
+            "Netherlands",
+            "North Macedonia",
+            "Norway",
+            "Poland",
+            "Portugal",
+            "Romania",
+            "Russia",
+            "Serbia",
+            "Slovakia",
+            "Slovenia",
+            "Spain",
+            "Sweden",
+            "Switzerland",
+            "Turkey",
+            "Ukraine",
+            "United Kingdom"
+          ];
+        const randomIndex = Math.floor(Math.random() * europeanCountries.length);
+        
+        await this.page.locator('[class="sc-eEvSnX dzFAio"]').nth(0).click()
+        await this.page.locator('[class="sc-hgkClB btJkRr"]').getByText(europeanCountries[randomIndex]).click()
     }
 }
