@@ -16,6 +16,12 @@ export class FormDirectoryPage extends HelperBase {
         await referenceId.fill(`${'QA-TEST-'}${randomAccountID}`)
     }
 
+    async selectIsCustomer() {
+        const randomChoice = faker.datatype.boolean()
+        await this.page.locator('input[name="is_customer"]').click()
+        await this.page.locator('[class="sc-hrJsxi ddhXQE" class="sc-hgJWpk kgUOnl"]').selectOption({ value: `${randomChoice}` })
+    }
+
     async enterEmail() {
         const email = faker.string.alpha(10).toLowerCase()
         const emailAddress = this.page.locator('input[name="email"]')
