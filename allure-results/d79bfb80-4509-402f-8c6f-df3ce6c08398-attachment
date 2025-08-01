@@ -1,0 +1,292 @@
+# Page snapshot
+
+```yaml
+- link:
+  - /url: /
+  - img
+- link "Blockchain Analytics":
+  - /url: /blockchain-analytics
+  - img
+  - text: Blockchain Analytics
+- link "Travel Rule":
+  - /url: /travelrule
+  - img
+  - text: Travel Rule
+- link "Directory":
+  - /url: /directory
+  - img
+  - text: Directory
+- link "Reports":
+  - /url: /reports
+  - img
+  - text: Reports
+- img
+- text: Case Management
+- img
+- text: Get Help Learn More Book a call Visit knowledge base
+- link "Settings":
+  - /url: /settings
+  - img
+  - text: Settings
+- text: Directory
+- list:
+  - listitem:
+    - img
+    - text: No notifications
+  - listitem:
+    - img
+    - text: API Documentation
+    - img
+    - text: Get help
+    - img
+    - text: Terms of use
+    - img
+  - listitem:
+    - img
+    - img
+    - text: Jasper Gabriel Manager jasper.gabriel+customer1@ospree.io
+    - link "Business Details":
+      - /url: /business-details
+    - link "Profile":
+      - /url: /user-details/undefined
+    - link "Settings":
+      - /url: /settings?page=0
+    - text: Logout
+- list:
+  - listitem:
+    - link "Accounts":
+      - /url: /directory
+  - listitem:
+    - link "VASPs":
+      - /url: /directory/vasps
+- text: All Customer Non-Customer
+- button "Account":
+  - img
+  - text: Account
+- img
+- text: Individual Account
+- img
+- text: Entity Account
+- img
+- text: "Filter By: Type Filter By: Status Sort By: Newest"
+- button "Filters":
+  - img
+  - text: Filters
+- searchbox "Search ID or Name..."
+- 'link "ID: ref-id-jul31-30 Individual Non-Customer PENDING TRANSFERS Name: Laura Harding Country of Domicile: - Date of Birth: - Nationality: - Status: Active Account Risk: - Transfers In: 5 Transfers Out: 5"':
+  - /url: /directory/accounts/details/0688b6cd-4a1a-7d42-8000-ada79f452b66
+  - 'heading "ID: ref-id-jul31-30" [level=3]'
+  - heading "Individual Non-Customer" [level=4]
+  - button "PENDING TRANSFERS"
+  - paragraph: "Name:"
+  - paragraph: Laura Harding
+  - paragraph: "Country of Domicile:"
+  - paragraph: "-"
+  - paragraph: "Date of Birth:"
+  - paragraph: "-"
+  - paragraph: "Nationality:"
+  - paragraph: "-"
+  - paragraph: "Status:"
+  - paragraph: Active
+  - paragraph: "Account Risk:"
+  - paragraph: "-"
+  - paragraph: "Transfers In:"
+  - paragraph: "5"
+  - paragraph: "Transfers Out:"
+  - paragraph: "5"
+- 'link "ID: ref-id-jul31-20 Individual Non-Customer PENDING TRANSFERS Name: Laura Harding Country of Domicile: - Date of Birth: - Nationality: - Status: Active Account Risk: - Transfers In: 0 Transfers Out: 2"':
+  - /url: /directory/accounts/details/0688b6a5-27bd-7b4c-8000-5f87090bd6ab
+  - 'heading "ID: ref-id-jul31-20" [level=3]'
+  - heading "Individual Non-Customer" [level=4]
+  - button "PENDING TRANSFERS"
+  - paragraph: "Name:"
+  - paragraph: Laura Harding
+  - paragraph: "Country of Domicile:"
+  - paragraph: "-"
+  - paragraph: "Date of Birth:"
+  - paragraph: "-"
+  - paragraph: "Nationality:"
+  - paragraph: "-"
+  - paragraph: "Status:"
+  - paragraph: Active
+  - paragraph: "Account Risk:"
+  - paragraph: "-"
+  - paragraph: "Transfers In:"
+  - paragraph: "0"
+  - paragraph: "Transfers Out:"
+  - paragraph: "2"
+- 'link "ID: ref-id-jul31-10 Individual Customer PENDING TRANSFERS Name: Mark Rover Country of Domicile: United States Date of Birth: - Nationality: - Status: Active Account Risk: - Transfers In: 2 Transfers Out: 0"':
+  - /url: /directory/accounts/details/0688b6a5-191e-7764-8000-f323d6e546e0
+  - 'heading "ID: ref-id-jul31-10" [level=3]'
+  - heading "Individual Customer" [level=4]
+  - button "PENDING TRANSFERS"
+  - paragraph: "Name:"
+  - paragraph: Mark Rover
+  - paragraph: "Country of Domicile:"
+  - paragraph: United States
+  - paragraph: "Date of Birth:"
+  - paragraph: "-"
+  - paragraph: "Nationality:"
+  - paragraph: "-"
+  - paragraph: "Status:"
+  - paragraph: Active
+  - paragraph: "Account Risk:"
+  - paragraph: "-"
+  - paragraph: "Transfers In:"
+  - paragraph: "2"
+  - paragraph: "Transfers Out:"
+  - paragraph: "0"
+- 'link "ID: ref-id-jul31-0222 Individual Non-Customer PENDING TRANSFERS Name: Laura Harding Country of Domicile: - Date of Birth: - Nationality: - Status: Active Account Risk: - Transfers In: 0 Transfers Out: 1"':
+  - /url: /directory/accounts/details/0688b677-957f-75c6-8000-1a7931382def
+  - 'heading "ID: ref-id-jul31-0222" [level=3]'
+  - heading "Individual Non-Customer" [level=4]
+  - button "PENDING TRANSFERS"
+  - paragraph: "Name:"
+  - paragraph: Laura Harding
+  - paragraph: "Country of Domicile:"
+  - paragraph: "-"
+  - paragraph: "Date of Birth:"
+  - paragraph: "-"
+  - paragraph: "Nationality:"
+  - paragraph: "-"
+  - paragraph: "Status:"
+  - paragraph: Active
+  - paragraph: "Account Risk:"
+  - paragraph: "-"
+  - paragraph: "Transfers In:"
+  - paragraph: "0"
+  - paragraph: "Transfers Out:"
+  - paragraph: "1"
+- 'link "ID: ref-id-jul31-0111 Individual Customer PENDING TRANSFERS Name: Mark Rover Country of Domicile: United States Date of Birth: - Nationality: - Status: Active Account Risk: - Transfers In: 1 Transfers Out: 0"':
+  - /url: /directory/accounts/details/0688b677-84d5-7768-8000-2e6eecd57403
+  - 'heading "ID: ref-id-jul31-0111" [level=3]'
+  - heading "Individual Customer" [level=4]
+  - button "PENDING TRANSFERS"
+  - paragraph: "Name:"
+  - paragraph: Mark Rover
+  - paragraph: "Country of Domicile:"
+  - paragraph: United States
+  - paragraph: "Date of Birth:"
+  - paragraph: "-"
+  - paragraph: "Nationality:"
+  - paragraph: "-"
+  - paragraph: "Status:"
+  - paragraph: Active
+  - paragraph: "Account Risk:"
+  - paragraph: "-"
+  - paragraph: "Transfers In:"
+  - paragraph: "1"
+  - paragraph: "Transfers Out:"
+  - paragraph: "0"
+- 'link "ID: FFTFB7bmse Individual Customer Name: John Mark Doe Country of Domicile: United States Date of Birth: 1988-06-27 Nationality: - Status: Active Account Risk: - Transfers In: 0 Transfers Out: 0"':
+  - /url: /directory/accounts/details/01985f6e-ea00-7203-a43b-c4161d5873be
+  - 'heading "ID: FFTFB7bmse" [level=3]'
+  - heading "Individual Customer" [level=4]
+  - paragraph: "Name:"
+  - paragraph: John Mark Doe
+  - paragraph: "Country of Domicile:"
+  - paragraph: United States
+  - paragraph: "Date of Birth:"
+  - paragraph: 1988-06-27
+  - paragraph: "Nationality:"
+  - paragraph: "-"
+  - paragraph: "Status:"
+  - paragraph: Active
+  - paragraph: "Account Risk:"
+  - paragraph: "-"
+  - paragraph: "Transfers In:"
+  - paragraph: "0"
+  - paragraph: "Transfers Out:"
+  - paragraph: "0"
+- 'link "ID: ODqIPsPEh0 Business Non-Customer Company Name: Digital Capital Country of Domicile: United States Country of Incorporation: Singapore Status: Active Account Risk: - Transfers In: 0 Transfers Out: 0"':
+  - /url: /directory/accounts/details/01985f5a-0485-7a77-b1d9-fb915d7d0e86
+  - 'heading "ID: ODqIPsPEh0" [level=3]'
+  - heading "Business Non-Customer" [level=4]
+  - paragraph: "Company Name:"
+  - paragraph: Digital Capital
+  - paragraph: "Country of Domicile:"
+  - paragraph: United States
+  - paragraph: "Country of Incorporation:"
+  - paragraph: Singapore
+  - paragraph: "Status:"
+  - paragraph: Active
+  - paragraph: "Account Risk:"
+  - paragraph: "-"
+  - paragraph: "Transfers In:"
+  - paragraph: "0"
+  - paragraph: "Transfers Out:"
+  - paragraph: "0"
+- 'link "ID: If1RFqizRb Individual Customer Name: John Mark Doe Country of Domicile: United States Date of Birth: 1988-06-27 Nationality: - Status: Active Account Risk: - Transfers In: 0 Transfers Out: 0"':
+  - /url: /directory/accounts/details/01985f59-c231-78d9-9d2e-fb8254094993
+  - 'heading "ID: If1RFqizRb" [level=3]'
+  - heading "Individual Customer" [level=4]
+  - paragraph: "Name:"
+  - paragraph: John Mark Doe
+  - paragraph: "Country of Domicile:"
+  - paragraph: United States
+  - paragraph: "Date of Birth:"
+  - paragraph: 1988-06-27
+  - paragraph: "Nationality:"
+  - paragraph: "-"
+  - paragraph: "Status:"
+  - paragraph: Active
+  - paragraph: "Account Risk:"
+  - paragraph: "-"
+  - paragraph: "Transfers In:"
+  - paragraph: "0"
+  - paragraph: "Transfers Out:"
+  - paragraph: "0"
+- 'link "ID: qa-ref-id-ce0d0025benf Individual Non-Customer PENDING TRANSFERS Name: David Miller Country of Domicile: - Date of Birth: - Nationality: - Status: Active Account Risk: - Transfers In: 0 Transfers Out: 1"':
+  - /url: /directory/accounts/details/06883588-9df6-7d32-8000-12300b48e2c0
+  - 'heading "ID: qa-ref-id-ce0d0025benf" [level=3]'
+  - heading "Individual Non-Customer" [level=4]
+  - button "PENDING TRANSFERS"
+  - paragraph: "Name:"
+  - paragraph: David Miller
+  - paragraph: "Country of Domicile:"
+  - paragraph: "-"
+  - paragraph: "Date of Birth:"
+  - paragraph: "-"
+  - paragraph: "Nationality:"
+  - paragraph: "-"
+  - paragraph: "Status:"
+  - paragraph: Active
+  - paragraph: "Account Risk:"
+  - paragraph: "-"
+  - paragraph: "Transfers In:"
+  - paragraph: "0"
+  - paragraph: "Transfers Out:"
+  - paragraph: "1"
+- 'link "ID: qa-ref-id-7c73979eorig Individual Non-Customer PENDING TRANSFERS Name: James Garcia Country of Domicile: Australia Date of Birth: - Nationality: - Status: Active Account Risk: - Transfers In: 1 Transfers Out: 0"':
+  - /url: /directory/accounts/details/06883588-a059-7a97-8000-0dcb83973e21
+  - 'heading "ID: qa-ref-id-7c73979eorig" [level=3]'
+  - heading "Individual Non-Customer" [level=4]
+  - button "PENDING TRANSFERS"
+  - paragraph: "Name:"
+  - paragraph: James Garcia
+  - paragraph: "Country of Domicile:"
+  - paragraph: Australia
+  - paragraph: "Date of Birth:"
+  - paragraph: "-"
+  - paragraph: "Nationality:"
+  - paragraph: "-"
+  - paragraph: "Status:"
+  - paragraph: Active
+  - paragraph: "Account Risk:"
+  - paragraph: "-"
+  - paragraph: "Transfers In:"
+  - paragraph: "1"
+  - paragraph: "Transfers Out:"
+  - paragraph: "0"
+- text: 10 Per Page
+- button [disabled]:
+  - img
+- button "1"
+- button "2"
+- button "3"
+- button "4"
+- button "5"
+- button:
+  - img
+- text: "Displayed: 10 / 4058"
+```
