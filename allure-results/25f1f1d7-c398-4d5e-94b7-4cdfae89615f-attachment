@@ -1,0 +1,279 @@
+# Page snapshot
+
+```yaml
+- link:
+  - /url: /
+  - img
+- link "Blockchain Analytics":
+  - /url: /blockchain-analytics
+  - img
+  - text: Blockchain Analytics
+- link "Travel Rule":
+  - /url: /travelrule
+  - img
+  - text: Travel Rule
+- link "Directory":
+  - /url: /directory
+  - img
+  - text: Directory
+- link "Reports":
+  - /url: /reports
+  - img
+  - text: Reports
+- img
+- text: Case Management
+- img
+- text: Get Help Learn More Book a call Visit knowledge base
+- link "Settings":
+  - /url: /settings
+  - img
+  - text: Settings
+- text: Directory
+- list:
+  - listitem:
+    - img
+    - text: No notifications
+  - listitem:
+    - img
+    - text: API Documentation
+    - img
+    - text: Get help
+    - img
+    - text: Terms of use
+    - img
+  - listitem:
+    - img
+    - img
+    - text: Jasper Gabriel Manager jasper.gabriel+customer1@ospree.io
+    - link "Business Details":
+      - /url: /business-details
+    - link "Profile":
+      - /url: /user-details/undefined
+    - link "Settings":
+      - /url: /settings?page=0
+    - text: Logout
+- list:
+  - listitem:
+    - link "Accounts":
+      - /url: /directory
+  - listitem:
+    - link "VASPs":
+      - /url: /directory/vasps
+- text: All Customer Non-Customer
+- button "Account":
+  - img
+  - text: Account
+- img
+- text: Individual Account
+- img
+- text: Entity Account
+- img
+- text: "Filter By: Type Filter By: Status Sort By: Newest"
+- button "Filters":
+  - img
+  - text: Filters
+- searchbox "Search ID or Name..."
+- 'link "ID: e407cfe97e Business Non-Customer PENDING TRANSFERS Company Name: Digital Capital Country of Domicile: United States Country of Incorporation: Singapore Status: Active Account Risk: - Transfers In: 1 Transfers Out: 0"':
+  - /url: /directory/accounts/details/0198b156-a9c1-7de7-8f33-ff5c7c7f3087
+  - 'heading "ID: e407cfe97e" [level=3]'
+  - heading "Business Non-Customer" [level=4]
+  - button "PENDING TRANSFERS"
+  - paragraph: "Company Name:"
+  - paragraph: Digital Capital
+  - paragraph: "Country of Domicile:"
+  - paragraph: United States
+  - paragraph: "Country of Incorporation:"
+  - paragraph: Singapore
+  - paragraph: "Status:"
+  - paragraph: Active
+  - paragraph: "Account Risk:"
+  - paragraph: "-"
+  - paragraph: "Transfers In:"
+  - paragraph: "1"
+  - paragraph: "Transfers Out:"
+  - paragraph: "0"
+- 'link "ID: a57fc71383 Individual Customer PENDING TRANSFERS Name: John Mark Doe Country of Domicile: United States Date of Birth: 1988-06-27 Nationality: - Status: Active Account Risk: - Transfers In: 0 Transfers Out: 1"':
+  - /url: /directory/accounts/details/0198b156-a9cd-7a9f-a0ce-be9268534524
+  - 'heading "ID: a57fc71383" [level=3]'
+  - heading "Individual Customer" [level=4]
+  - button "PENDING TRANSFERS"
+  - paragraph: "Name:"
+  - paragraph: John Mark Doe
+  - paragraph: "Country of Domicile:"
+  - paragraph: United States
+  - paragraph: "Date of Birth:"
+  - paragraph: 1988-06-27
+  - paragraph: "Nationality:"
+  - paragraph: "-"
+  - paragraph: "Status:"
+  - paragraph: Active
+  - paragraph: "Account Risk:"
+  - paragraph: "-"
+  - paragraph: "Transfers In:"
+  - paragraph: "0"
+  - paragraph: "Transfers Out:"
+  - paragraph: "1"
+- 'link "ID: 9442631d02 Business Non-Customer Company Name: Digital Capital Country of Domicile: United States Country of Incorporation: Singapore Status: Active Account Risk: - Transfers In: 0 Transfers Out: 0"':
+  - /url: /directory/accounts/details/0198b156-aad2-762e-bf6f-8e8dce23cb67
+  - 'heading "ID: 9442631d02" [level=3]'
+  - heading "Business Non-Customer" [level=4]
+  - paragraph: "Company Name:"
+  - paragraph: Digital Capital
+  - paragraph: "Country of Domicile:"
+  - paragraph: United States
+  - paragraph: "Country of Incorporation:"
+  - paragraph: Singapore
+  - paragraph: "Status:"
+  - paragraph: Active
+  - paragraph: "Account Risk:"
+  - paragraph: "-"
+  - paragraph: "Transfers In:"
+  - paragraph: "0"
+  - paragraph: "Transfers Out:"
+  - paragraph: "0"
+- 'link "ID: cc7fdb2266 Business Non-Customer Company Name: Digital Capital Country of Domicile: United States Country of Incorporation: Singapore Status: Active Account Risk: - Transfers In: 0 Transfers Out: 0"':
+  - /url: /directory/accounts/details/0198b156-a9c6-7081-b5f6-7dd9db3a0a16
+  - 'heading "ID: cc7fdb2266" [level=3]'
+  - heading "Business Non-Customer" [level=4]
+  - paragraph: "Company Name:"
+  - paragraph: Digital Capital
+  - paragraph: "Country of Domicile:"
+  - paragraph: United States
+  - paragraph: "Country of Incorporation:"
+  - paragraph: Singapore
+  - paragraph: "Status:"
+  - paragraph: Active
+  - paragraph: "Account Risk:"
+  - paragraph: "-"
+  - paragraph: "Transfers In:"
+  - paragraph: "0"
+  - paragraph: "Transfers Out:"
+  - paragraph: "0"
+- 'link "ID: 93ce7403bd Business Non-Customer Company Name: Digital Capital Country of Domicile: United States Country of Incorporation: Singapore Status: Active Account Risk: - Transfers In: 0 Transfers Out: 0"':
+  - /url: /directory/accounts/details/0198b156-a795-7596-b903-3996e00cd54c
+  - 'heading "ID: 93ce7403bd" [level=3]'
+  - heading "Business Non-Customer" [level=4]
+  - paragraph: "Company Name:"
+  - paragraph: Digital Capital
+  - paragraph: "Country of Domicile:"
+  - paragraph: United States
+  - paragraph: "Country of Incorporation:"
+  - paragraph: Singapore
+  - paragraph: "Status:"
+  - paragraph: Active
+  - paragraph: "Account Risk:"
+  - paragraph: "-"
+  - paragraph: "Transfers In:"
+  - paragraph: "0"
+  - paragraph: "Transfers Out:"
+  - paragraph: "0"
+- 'link "ID: c6e606123e Individual Customer Name: John Mark Doe Country of Domicile: United States Date of Birth: 1988-06-27 Nationality: - Status: Active Account Risk: - Transfers In: 0 Transfers Out: 0"':
+  - /url: /directory/accounts/details/0198b156-a8ad-7124-b598-8cfdf861b117
+  - 'heading "ID: c6e606123e" [level=3]'
+  - heading "Individual Customer" [level=4]
+  - paragraph: "Name:"
+  - paragraph: John Mark Doe
+  - paragraph: "Country of Domicile:"
+  - paragraph: United States
+  - paragraph: "Date of Birth:"
+  - paragraph: 1988-06-27
+  - paragraph: "Nationality:"
+  - paragraph: "-"
+  - paragraph: "Status:"
+  - paragraph: Active
+  - paragraph: "Account Risk:"
+  - paragraph: "-"
+  - paragraph: "Transfers In:"
+  - paragraph: "0"
+  - paragraph: "Transfers Out:"
+  - paragraph: "0"
+- 'link "ID: 54a4125497 Individual Customer Name: John Mark Doe Country of Domicile: United States Date of Birth: 1988-06-27 Nationality: - Status: Active Account Risk: - Transfers In: 0 Transfers Out: 0"':
+  - /url: /directory/accounts/details/0198b156-a8af-7bf3-89ce-8aa50523ee08
+  - 'heading "ID: 54a4125497" [level=3]'
+  - heading "Individual Customer" [level=4]
+  - paragraph: "Name:"
+  - paragraph: John Mark Doe
+  - paragraph: "Country of Domicile:"
+  - paragraph: United States
+  - paragraph: "Date of Birth:"
+  - paragraph: 1988-06-27
+  - paragraph: "Nationality:"
+  - paragraph: "-"
+  - paragraph: "Status:"
+  - paragraph: Active
+  - paragraph: "Account Risk:"
+  - paragraph: "-"
+  - paragraph: "Transfers In:"
+  - paragraph: "0"
+  - paragraph: "Transfers Out:"
+  - paragraph: "0"
+- 'link "ID: 6aff5e307d Individual Customer Name: John Mark Doe Country of Domicile: United States Date of Birth: 1988-06-27 Nationality: - Status: Active Account Risk: - Transfers In: 0 Transfers Out: 0"':
+  - /url: /directory/accounts/details/0198b156-a672-7c50-9206-87f862ee075c
+  - 'heading "ID: 6aff5e307d" [level=3]'
+  - heading "Individual Customer" [level=4]
+  - paragraph: "Name:"
+  - paragraph: John Mark Doe
+  - paragraph: "Country of Domicile:"
+  - paragraph: United States
+  - paragraph: "Date of Birth:"
+  - paragraph: 1988-06-27
+  - paragraph: "Nationality:"
+  - paragraph: "-"
+  - paragraph: "Status:"
+  - paragraph: Active
+  - paragraph: "Account Risk:"
+  - paragraph: "-"
+  - paragraph: "Transfers In:"
+  - paragraph: "0"
+  - paragraph: "Transfers Out:"
+  - paragraph: "0"
+- 'link "ID: e7c82eb04c Business Non-Customer Company Name: Digital Capital Country of Domicile: United States Country of Incorporation: Singapore Status: Active Account Risk: - Transfers In: 0 Transfers Out: 0"':
+  - /url: /directory/accounts/details/0198b156-a79d-790f-8a8f-ffaa28362b2a
+  - 'heading "ID: e7c82eb04c" [level=3]'
+  - heading "Business Non-Customer" [level=4]
+  - paragraph: "Company Name:"
+  - paragraph: Digital Capital
+  - paragraph: "Country of Domicile:"
+  - paragraph: United States
+  - paragraph: "Country of Incorporation:"
+  - paragraph: Singapore
+  - paragraph: "Status:"
+  - paragraph: Active
+  - paragraph: "Account Risk:"
+  - paragraph: "-"
+  - paragraph: "Transfers In:"
+  - paragraph: "0"
+  - paragraph: "Transfers Out:"
+  - paragraph: "0"
+- 'link "ID: de2ba3d3b0 Individual Customer Name: John Mark Doe Country of Domicile: United States Date of Birth: 1988-06-27 Nationality: - Status: Active Account Risk: - Transfers In: 0 Transfers Out: 0"':
+  - /url: /directory/accounts/details/0198b156-a678-77db-b661-a382207a464f
+  - 'heading "ID: de2ba3d3b0" [level=3]'
+  - heading "Individual Customer" [level=4]
+  - paragraph: "Name:"
+  - paragraph: John Mark Doe
+  - paragraph: "Country of Domicile:"
+  - paragraph: United States
+  - paragraph: "Date of Birth:"
+  - paragraph: 1988-06-27
+  - paragraph: "Nationality:"
+  - paragraph: "-"
+  - paragraph: "Status:"
+  - paragraph: Active
+  - paragraph: "Account Risk:"
+  - paragraph: "-"
+  - paragraph: "Transfers In:"
+  - paragraph: "0"
+  - paragraph: "Transfers Out:"
+  - paragraph: "0"
+- text: 10 Per Page
+- button [disabled]:
+  - img
+- button "1"
+- button "2"
+- button "3"
+- button "4"
+- button "5"
+- button:
+  - img
+- text: "Displayed: 10 / 5514"
+```
